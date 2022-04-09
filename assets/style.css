@@ -60,6 +60,9 @@ html {
 }
 
 .nav-item a{
+    display: block;
+    height: 8vh;
+    padding: 0 10px;
     text-decoration: none;
     font-size: 1.4rem;
     color: #fff;
@@ -85,7 +88,7 @@ html {
 
 /* Begin Hero */
 #hero {
-    background-image: url('/assets/img/wallpaperflare.com_wallpaper.jpg');
+    background-image: url('assets/img/wallpaperflare.com_wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -347,6 +350,15 @@ html {
     transition: 1s transform ease;
 }
 
+.table-icon {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.table-header {
+    display: inline-block;
+}
+
 .content-table:hover {
     transform: scale(1.03);
 }
@@ -362,13 +374,19 @@ html {
 }
 
 .content-table tbody tr {
-    border-left: 2px solid #009879;
-    border-right: 2px solid #009879;
-    border-bottom: 2px solid #009879;
+    border-left: 1px solid #009879;
+    border-right: 1px solid #009879;
+    border-bottom: 1px solid #009879;
 }
 
-.content-table tbody tr:nth-child(even) {
-    /* background-color: #eee; */
+.content-table-add2 tbody tr {
+    border-left: 2px solid #009879;
+    border-right: 2px solid #009879;
+    border-bottom: none;
+}
+
+.content-table-add2 tbody tr:nth-child(even) {
+    background-color: #eee;
 }
 
 .content-table tbody tr:last-child {

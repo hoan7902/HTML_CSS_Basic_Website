@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>My Website</title>
+    <title>An Thịnh Phát</title>
 </head>
 <body>
     <!-- Begin nav -->
@@ -145,8 +145,22 @@
                                 <table class="content-table">
                                     <thead>
                                     <tr>
-                                        <th>Điện thoại</th>
-                                        <th>Giá</th>
+                                        <th>
+                                            <div class="table-icon">
+                                                <i class="fa-brands fa-apple"></i>
+                                            </div>
+                                            <div class="table-header">
+                                                Điện thoại
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="table-icon" style="font-size: 1.5rem">
+                                                <i class="fa-solid fa-money-check"></i>
+                                            </div>
+                                            <div class="table-header">
+                                                Giá
+                                            </div>
+                                        </th>
                                     </tr>
                                     </thead>
                                     <tbody class="white-color">
@@ -195,13 +209,27 @@
             <div class="replace-glass-box">
                 <div class="replace-item">
                     <div class="replace-insight">
-                        <h2>Bảng giá thay màn hình chính hãng</h2>
+                        <h2>Bảng giá thay màn hình</h2>
                         <div class="replace-detail">
-                                <table class="content-table">
+                                <table class="content-table content-table-add2">
                                     <thead>
                                     <tr>
-                                        <th>Điện thoại</th>
-                                        <th>Giá</th>
+                                        <th>
+                                            <div class="table-icon">
+                                                <i class="fa-brands fa-apple"></i>
+                                            </div>
+                                            <div class="table-header">
+                                                Điện thoại
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="table-icon" style="font-size: 1.5rem">
+                                                <i class="fa-solid fa-money-check"></i>
+                                            </div>
+                                            <div class="table-header">
+                                                Giá
+                                            </div>
+                                        </th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -286,7 +314,7 @@
             <div class="list-item">
                 <div class="contact-item">
                     <div class="contact-img">
-                        <img src="assets/img/icons8-phone-50.png" alt="">
+                        <img src="assets/img/icons8-phonelink-ring.gif" alt="">
                     </div>
                     <div class="contact-info">
                         <h1 class="color-green">Phone</h1>
@@ -296,7 +324,7 @@
                 </div>
                 <div class="contact-item">
                     <div class="contact-img">
-                        <img src="assets/img/icons8-email-open-48.png" alt="">
+                        <img src="assets/img/icons8-gmail-logo.gif" alt="">
                     </div>
                     <div class="contact-info">
                         <h1 class="color-blue">Email</h1>
@@ -362,19 +390,6 @@
 
     </section>
     <!-- end footer -->
-    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
-    <script>
-        // patch all methods
-        seamless.polyfill();
-        // or use specific methods
-        seamless.scrollBy(window, { behavior: "smooth", top: 200, left: 0 });
-
-        seamless.scrollIntoView(document.querySelector("#target"), {
-            behavior: "smooth",
-            block: "center",
-            inline: "center",
-        });
-    </script>
     <script src="./main.js"></script>
 </body>
 </html>

@@ -7,7 +7,6 @@ setInterval(function() {
 
 var getBtn = document.querySelector('.js-open-btn');
 var getHeader = document.querySelector('.js-header')
-console.log([getHeader])
 getBtn.onclick = function() {
     getHeader.classList.toggle('over-flow')
 }
