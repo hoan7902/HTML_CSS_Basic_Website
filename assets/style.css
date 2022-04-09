@@ -88,7 +88,7 @@ html {
 
 /* Begin Hero */
 #hero {
-    background-image: url('assets/img/wallpaperflare.com_wallpaper.jpg');
+    background-image: url('https://github.com/hoan7902/AnThinhPhatMobile/blob/master/assets/img/wallpaperflare.com_wallpaper.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -261,15 +261,15 @@ html {
 }
 
 .section__item-url-1 {
-    background-image: url('/assets/img/151161345-mobile-phone-and-broken-tempered-glass-on-an-isolated-background-glass-replacement.webp');
+    background-image: url('https://raw.githubusercontent.com/hoan7902/AnThinhPhatMobile/master/assets/img/151161345-mobile-phone-and-broken-tempered-glass-on-an-isolated-background-glass-replacement.webp');
 }
 
 .section__item-url-2 {
-    background-image: url('/assets/img/iphone-internal-wallpapers-scaled.jpeg');
+    background-image: url('https://github.com/hoan7902/AnThinhPhatMobile/blob/master/assets/img/iphone-internal-wallpapers-scaled.jpeg?raw=true');
 }
 
 .section__item-url-3 {
-    background-image: url('/assets/img/wallpaperflare.com_wallpaper.jpg');
+    background-image: url('https://github.com/hoan7902/AnThinhPhatMobile/blob/master/assets/img/wallpaperflare.com_wallpaper.jpg?raw=true');
 }
 
 .section__item:hover {
